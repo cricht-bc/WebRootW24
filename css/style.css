@@ -43,8 +43,14 @@ div {
             /* this will change the background to light blue when view is landscape */
             background-color: lightblue;
         }
-        {
-        font-size: 1em !important;
-        color: #000 !important;
-        font-family: Arial !important;
+
+        @font-face {
+            font-family: 'MS Sans Serif';
+            src: '/font/MS Sans Serif.ttf';
+            font-weight: normal;
+        }
+        @font-face {
+            font-family: 'MS Sans Serif';
+            src: '/font/MS Sans Serif Bold.ttf';
+            font-weight: bold;
         }
